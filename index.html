@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <div class="name">
+        <h3>Photo Gallery</h3>
+        <div class="text">
+          <p>Enter the number of photos</p>
+          <input
+            class="number"
+            id="id-form-0-number"
+            min="0"
+            name="form-0-number"
+            value="1"
+            type="number"
+          />
+          <br />
+          <button id="btn btn-primary" type="button" onclick="randomImages()">
+            Get Photos
+          </button>
+          <div id="myImage"></div>
+        </div>
+      </div>
+    </div>
+    <div id="image1" style="display: flex; width: 50%; height: 50%;">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ1ipeQbFseUM_GzxwMoQj45w9HtAnu4eu5w&s"
+        alt="image1"
+      />
+      <img 
+      src="https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp" >
+    </div>
+    <img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfmSGjet8_p422wEQsNKkjLLuzVNEG07I-5Q&s">
+    <script src="/javascript.js"></script>
+  </body>
+</html>

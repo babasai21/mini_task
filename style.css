@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    background-color: rgb(202, 249, 252);
+}
+.layout{
+    padding: 30px;
+align-items: center;
+justify-content: center;
+}
+.name{
+    text-align: center;
+    padding: 20px;
+}
+.text{
+    padding: 50px;
+    font-size: 1.2rem;
+}
+.number{
+    margin: 20px;
+}
+input{
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: green;
+}
